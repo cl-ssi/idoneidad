@@ -1,5 +1,5 @@
 ## Instalación Sistema de Idoneidad SSI
-=======
+========================================
 
 ### Programas
 
@@ -34,18 +34,13 @@
 
 ### Abrir en navegador
 - http://localhost:8000
-- usuario: sistemas.ssi@redsalud.gob.cl
-- clave: admin
+
 
 ## Para mantener actualizado el sistema
 - $ git pull
 - $ composer install
 - $ php artisan migrate
 
-
-## Para consultas e información sobre actualizaciones del sistema
-- http://monitor-esmeralda.slack.com
-- esmeralda.ssi@redsalud.gob.cl
 
 ## Otros comandos
 - $ php artisan migrate:fresh --seed  ( Restaura al base de datos al punto de partida )
@@ -55,4 +50,3 @@
 
 ## Contribución
 - El sistema está abierto a quien quiera colaborar. :)
-
